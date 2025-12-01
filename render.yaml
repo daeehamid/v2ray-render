@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: v2ray
+    env: docker
+    autoDeploy: true
+    plan: free
+    envVars: []
