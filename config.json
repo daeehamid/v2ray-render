@@ -1,0 +1,30 @@
+{
+    "inbounds": [
+      {
+        "port": 10000,
+        "protocol": "vless",
+        "settings": {
+          "clients": [
+            {
+              "id": "b3e6f1d2-8c4f-4a7b-9cfa-2d1e5b8a7f90",
+              "flow": "xtls-rprx-vision"
+            }
+          ],
+          "decryption": "none"
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "path": "/v2"
+          }
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "freedom",
+        "settings": {}
+      }
+    ]
+  }
+  
